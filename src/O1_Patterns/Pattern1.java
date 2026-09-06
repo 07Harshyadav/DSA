@@ -17,6 +17,7 @@ public class Pattern1 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       int n = sc.nextInt();
-      pattern1(n);                                         // call a function.In leetcode dosen't need to write main function.
+      pattern1(n);                                         // call a function.
+                                                // In leetcode dosen't need to write main function.
     }
 }
