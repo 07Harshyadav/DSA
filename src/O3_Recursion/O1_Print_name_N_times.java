@@ -1,5 +1,4 @@
 package O3_Recursion;
-
 import java.util.Scanner;
 
 public class O1_Print_name_N_times {
@@ -9,7 +8,7 @@ public class O1_Print_name_N_times {
             return;                             // when n=0. then return
         }else{
             System.out.println("harsh");
-            printName(n-1);                 // we calling same func with reduced n by 1
+            printName(n-1);                 // we calling same func with reduced n by 1. (repeatedly)
         }
     }
 
