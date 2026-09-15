@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class O7_Check_String_Palindrome {
 
     static boolean palindrome(String s,int i){
-     if(i>=s.length()/2){                                 // if is executed when i reach to half of string
+     if(i>=s.length()/2){                //s.length()/2 => int.         // if is executed when i reach to half of string
          return true;
      }
      if(s.charAt(i)!=s.charAt(s.length()-1-i)){          // check first and last letter.
